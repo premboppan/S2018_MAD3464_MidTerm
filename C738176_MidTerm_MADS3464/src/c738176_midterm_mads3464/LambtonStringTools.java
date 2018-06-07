@@ -14,6 +14,9 @@ public class LambtonStringTools {
      static int j=0;
      static int a=0;
      static int reverse;
+     static int bin;
+     static int binary[];
+     static int index;
      
 static void reverse(String s){
     char ch[] = new char[s.length()];
@@ -23,11 +26,15 @@ static void reverse(String s){
     for (j=s.length()-1;j>=0;j--)
      System.out.print(ch[j]);
      
+
 }
 
   public int binaryToDecimal(String s){
-      j=s
-  
+     bin = Integer.parseInt(s);
+     while(bin > 0){
+         binary[index++] = bin 
+     }
+     
 
     
 }
