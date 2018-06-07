@@ -47,10 +47,24 @@ static void reverse(String s){
      }
   }
      return deci;
-
-  }
-}
-
-
      
- 
+  }
+  
+     public String initials (String s){
+       if(s.length() ==0)
+           return s;
+      System.out.println(Character.toUpperCase(s.charAt(0)));
+      for(int j=1;j <s.length()-1;j++)
+          if(s.charAt(j) ==' ')
+           System.out.print(" "+Character.toUpperCase(s.charAt(j+1)));
+           return s;
+     }
+     
+     
+           
+              
+         
+     }
+
+
+             }
