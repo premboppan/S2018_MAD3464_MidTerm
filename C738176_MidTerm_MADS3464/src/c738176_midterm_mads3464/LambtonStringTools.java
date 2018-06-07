@@ -25,7 +25,8 @@ static void reverse(String s){
      
 }
 
-  public int binaryToDecimal(string s);
+  public int binaryToDecimal(String s){
+      j=s
   
 
     
