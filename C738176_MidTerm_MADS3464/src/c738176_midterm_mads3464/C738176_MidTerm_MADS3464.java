@@ -18,6 +18,10 @@ public class C738176_MidTerm_MADS3464 {
         LambtonStringTools ref = new LambtonStringTools();
         ref.reverse("Lambton");
         
+        System.out.println("\n second Execution");
+        System.out.println(ref.binaryToDecimal("1111"));
+      
+        
         
     }
     
